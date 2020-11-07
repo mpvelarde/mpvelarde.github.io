@@ -16,8 +16,6 @@
     <title>
         María Paz Velarde Mosquera
     </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
 
     
     <meta itemprop="name" content="María Paz Velarde Mosquera">
@@ -33,24 +31,37 @@
     
     <link rel="alternate" type="application/rss+xml" href="/index.xml" title="María Paz Velarde Mosquera">
 
-    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
     
     <style>
+        :root {
+            --phoneWidth: (max-width: 684px);
+            --tabletWidth: (max-width: 900px);
+        }
+
+        html {
+            box-sizing: border-box;
+            line-height: 1.6;
+            letter-spacing: .06em;
+            scroll-behavior: smooth;
+        }
+
         *, *:before, *:after {
             box-sizing: inherit;
         }
         body {
             margin: 0;
             padding: 0;
-            font-family: monospace,monospace;
-            font-display: auto;
+            font-family: Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
             font-size: 1rem;
+            font-weight: 300;
+            font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
             line-height: 1.54;
+            font-display: auto;
             background-color: #fff;
             color: #222;
             text-rendering: optimizeLegibility;
             -webkit-font-smoothing: antialiased;
-            font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
             -webkit-overflow-scrolling: touch;
             -webkit-text-size-adjust: 100%;
             display: flex;
@@ -90,7 +101,7 @@
             display: inline-block;
             width: 10px;
             height: 1rem;
-            background: #fe5186;
+            background: #ca67bd;
             margin-left: 5px;
             border-radius: 1px;
             animation: cursor 1s infinite;
@@ -111,7 +122,8 @@
         }
 
         .social-media {
-            
+            padding: 20px 0;
+            color: #961986;
         }
 
         </style>
